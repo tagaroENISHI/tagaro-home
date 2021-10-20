@@ -9,6 +9,7 @@ body{
 	margin: 0;
 	background-color: lightgrey;
 	min-width: 980px;
+	font-family: "Futura PT","A P-OTF A1ゴシック Std","sans-serif";
 }
 
 a{
@@ -17,7 +18,7 @@ a{
 	display: block;
 	line-height: 60px;
 	padding: 0 20px;
-	font-family: "Futura PT","A P-OTF A1ゴシック Std";
+	font-family: "Futura PT","A P-OTF A1ゴシック Std","sans-serif";
 
 }
 li{
