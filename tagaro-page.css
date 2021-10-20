@@ -9,7 +9,7 @@ body{
 	margin: 0;
 	background-color: lightgrey;
 	min-width: 980px;
-	font-family: "Futura PT","A P-OTF A1ゴシック Std",sans-serif;
+	font-family: "Futura PT","A P-OTF A1ゴシック Std","A-CID 太ゴB101",sans-serif;
 }
 
 a{
@@ -18,7 +18,7 @@ a{
 	display: block;
 	line-height: 60px;
 	padding: 0 20px;
-	font-family: "Futura PT","A P-OTF A1ゴシック Std",sans-serif;
+	font-family: "Futura PT","A P-OTF A1ゴシック Std","A-CID 太ゴB101",sans-serif;
 
 }
 li{
@@ -160,7 +160,7 @@ header{
 }
 
 #profile h3{
-	font-family: "Futura PT","A P-OTF A1ゴシック Std",sans-serif;
+	font-family: "Futura PT","A P-OTF A1ゴシック Std","A-CID 太ゴB101",sans-serif;
 	font-size: 30pt;
 	border-left: 3px solid yellow;
 	display: inline-block;
@@ -174,7 +174,7 @@ header{
 }
 
 h1{
-	font-family: "Futura PT","A P-OTF A1ゴシック Std",sans-serif;
+	font-family: "Futura PT","A P-OTF A1ゴシック Std","A-CID 太ゴB101",sans-serif;
 	font-size: 40pt;
 	padding: 10vh 5vh 0 0 ;
 }
@@ -215,7 +215,7 @@ h1 p{
 	padding-top: 10%;
 }
 #request h3{	
-	font-family: "Futura PT","A P-OTF A1ゴシック Std",sans-serif;
+	font-family: "Futura PT","A P-OTF A1ゴシック Std","A-CID 太ゴB101",sans-serif;
 	font-size: 30pt;
 	border-left: 3px solid yellow;
 	display: inline-block;
@@ -277,7 +277,7 @@ h1 p{
 	padding-top: 10%;
 }
 #shop h3{	
-	font-family: "Futura PT","A P-OTF A1ゴシック Std",sans-serif;
+	font-family: "Futura PT","A P-OTF A1ゴシック Std","A-CID 太ゴB101",sans-serif;
 	font-size: 30pt;
 	border-left: 3px solid yellow;
 	display: inline-block;
@@ -316,7 +316,7 @@ h1 p{
 	margin-top: 50%;
 }
 #works h3{	
-	font-family: "Futura PT","A P-OTF A1ゴシック Std",sans-serif;
+	font-family: "Futura PT","A P-OTF A1ゴシック Std","A-CID 太ゴB101",sans-serif;
 	font-size: 30pt;
 	border-left: 3px solid yellow;
 	display: inline-block;
@@ -328,7 +328,7 @@ h1 p{
 	left: 10vh;
 }
 #works p{
-	font-family: "Futura PT","A P-OTF A1ゴシック Std",sans-serif;
+	font-family: "Futura PT","A P-OTF A1ゴシック Std","A-CID 太ゴB101",sans-serif;
 	position: relative;
 	bottom: 40px;
 	font-weight: bold;
@@ -352,7 +352,7 @@ h1 p{
 	grid-template-columns: 1fr 1fr;
 }
 h4{
-	font-family: "Futura PT","A P-OTF A1ゴシック Std",sans-serif;
+	font-family: "Futura PT","A P-OTF A1ゴシック Std","A-CID 太ゴB101",sans-serif;
 	font-size: 20pt;
 	padding-left: 10%;
 }
