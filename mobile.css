@@ -1,24 +1,33 @@
 @charset"UTF-8";
-@media screen and (max-width:767px) {
+@media screen and (max-width:700px) {
 
-	* {
+* {
 	float: none;
 	position: static;
-}img {
-	max-width: 100vh;
+
+}
+body{
+	width: 100vw;
+}
+img {
+	max-width: 100vw;
 	height: auto;
 }
-header{padding-top: 3vh;
+header{
+	padding-top: 3vh;
 
+}
+h3{
+	margin: 0 0 0 -10%;
 }
 
 #profile{
-	height: 300vh;
-	width: 110%;
+	height: 200vh;
+	width: 100vw;
 	padding-bottom: ;
 }
 .slideBox{
-	padding-bottom: 100%;
+	padding-bottom: 100vh;
 	width: 100%;
 	height: 100%;
   background-position: center center;
@@ -26,12 +35,15 @@ header{padding-top: 3vh;
   background-size: cover;
 }
 .title{
-	margin-top: -20vh;
-	display:inline-block;
+	margin-top: -20%;
+	display:block;
 	text-align: center;
 }
 .name p{
 	line-height: 5pt;
+	font-size: 15pt;
+}
+
 }
 .iconmein{
 	margin-bottom: 10vh;
@@ -39,18 +51,120 @@ header{padding-top: 3vh;
 #icons1{
 	margin: 0;
 }
+.icon1 p{
+	font-size: 15pt;
+}
 /*リクエスト*/
 #request{
-	width: auto;
-	height: 150vh;
+	width: 100vw;
+	height: 200vh;
 }
 .linkicon2{
 	display:block;
-	margin: 3vh 0 0 0vh ;
+	margin: 10vh 0 0 0 ;
 }
 .icon2{
-	padding: 5%;
+	padding: 20%;
 	margin-top: -1em;
+}
+
+
+/*////ショップ////*/
+#shop{
+width: 100vw;
+height:250vh;
+padding: 10% 0 0 0;
+}
+.icon3{
+	width: 50%;
+	height: 50%;
+	margin-top: 5em;
+}
+
+#shopbig{
+	padding: 0;
+	margin: 5em 0 0 5em;
+	width: 50%;
+	height: 50%;
+	display:flex;
+	flex-direction: column;
+}
+#order1{
+	order: 1;
+}
+.order2{
+	order: 2;
+}
+#order3{
+	order: 3;
+}
+.order4{
+	order: 4;
+}
+#shop a{
+	display: flex;
+	width: 130%;
+
+}
+#shop img{
+	height: 100%;
+}
+.shopmin {
+	margin:20%;
+	font-size: 15pt;
+	line-height: 20pt;
+}
+.shopmin p{
+	width: 200px;
+}
+.icon3{
+	height: 50%;
+	width: 50%;
+}
+.shopmin{
+	text-align: left;
+	font-size: 15pt;
+	line-height: 20pt;
+}
+.shopmin h5{
+	padding: 0;
+	margin: 0;
+}
+
+/*/////仕事////*/
+#works{
+	width: 100vw;
+	height: 200vh;
+	margin: 0;
+	padding: 0 0 0 -1em;
+}
+.sigoto{
+	margin-left: 10%;
+	display: flex;
+	flex-direction: column;
+}
+.sakuhin{
+	order: 2;
+	width: 70%;
+	height: 70%;
+	display: grid;
+	gap: 0px;
+	margin: 10% 0 0 0%;
+	padding: 0;
+	grid-auto-columns: 1fr 1fr;
+}
+#bosyu{
+	order: 1;
+	width: 100vw;
+	height: auto;
+	margin-bottom: -5em;
+	text-align: center;
+}
+.icon4 {
+
+}
+footer{
+	width: 100vw;
 }
 
 }
