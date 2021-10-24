@@ -179,17 +179,17 @@ h3{
 .title{
 	display: grid;
 	gap: 20px;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 2fr 1fr 1fr;
 	margin-top: 5vh;
 }
 .title h1{
-	margin-top: 50px;
+	margin: 50px 0 0 30%;
 	font-size: 30pt;
 	font-style:bold;
-	margin-left: 100px;
 }
 .title img{
-	border-radius: 30px
+	border-radius: 30px;
+	margin-left: 10%;
 }
 .name p{
 	font-size: 15pt;
