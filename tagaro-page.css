@@ -355,7 +355,7 @@ h3{
 }
 .sigoto{
 	display: grid;
-	gap: 10px;
+	gap: 0px;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
 }
