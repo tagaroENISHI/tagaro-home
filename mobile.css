@@ -89,6 +89,9 @@ width: 100%;
 height:250vh;
 padding: 0 0 0 0;
 }
+#shop h3{
+	height: 5%;
+}
 .icon3{
 	width: 50%;
 	height: 50%;
@@ -172,7 +175,7 @@ padding: 0 0 0 0;
 	order: 1;
 	width: 100vw;
 	height: auto;
-	margin-bottom: -5em;
+	margin: 0 0 -5em 0;
 	text-align: center;
 }
 .icon4 {
