@@ -187,9 +187,11 @@ h3{
 	font-size: 30pt;
 	font-style:bold;
 }
+.iconmein{	
+	margin-left: 10%;
+}
 .title img{
 	border-radius: 30px;
-	margin-left: 10%;
 }
 .name p{
 	font-size: 15pt;
