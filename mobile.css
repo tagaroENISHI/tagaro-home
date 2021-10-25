@@ -167,7 +167,7 @@ padding: 0 0 0 0;
 	height: 80%;
 	display: grid;
 	gap: 0px;
-	margin: 10% 0 0 0;
+	margin: 20% 0 0 0;
 	padding: 0;
 	grid-auto-columns: 1fr 1fr;
 }
