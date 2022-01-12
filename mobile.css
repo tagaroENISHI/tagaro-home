@@ -23,7 +23,7 @@ h3{
 }
 
 #profile{
-	height: 230vh;
+	height: 200vh;
 	width: 100%;
 	padding-bottom: ;
 }
@@ -72,14 +72,15 @@ h3{
 #request{
 	width: 100%;
 	height: 100vh;
+	margin-bottom: 30%;
 }
 .linkicon2{
 	display:block;
-	margin: 10vh 0 0 0 ;
+	padding: 40vh 0 40vh 0 ;
 }
 .icon2{
-	padding: 10%;
-	margin-top: -1em;
+	padding: 0%;
+	margin-top: 0em;
 }
 
 
