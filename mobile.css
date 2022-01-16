@@ -1,46 +1,86 @@
 @charset"UTF-8";
-@media screen and (max-width:600px) {
+@media screen and (max-width:599px) {
 
+html{
+	font-size: 40%;
+}
 * {
 	float: none;
 	position: static;
-
 }
 body{
-	width: 100;
+	width: 100vw;
+	height: 100vh;
 }
 img {
 	max-width: 100vw;
 	height: auto;
 }
 header{
+	max-width: 100vw;
+	height: 5%;
 	padding-top: 3vh;
+}
+#rogo img{
+	max-height: 40%;
+}
+#rogo .name{
+	display: none;
+}
+#menutext a{
+	font-size: 13pt;
+	padding-right: 7%;
+	text-align: center;
+}
 
-}
-h3{
-	margin: 0 0 0 0%;
+
+/*タイトル*/
+#profile h3{
 	height: 10%;
+	font-size: 5rem;
+	left: 10%;
+	border-left: 3px solid yellow;
 }
+#request h3{
+	height: 10%;
+	font-size: 5rem;
+	left: 5%;
+	border-left: 3px solid yellow;
+}
+#shop h3{
+	font-size: 5rem;
+	left: 5%;
+	border-left: 3px solid yellow;
+}
+#works h3{
+	font-size: 5rem;
+	left: 5%;
+	border-left: 3px solid yellow;
+}
+/*タイトル*/
+
 
 #profile{
-	height: 200vh;
-	width: 100%;
-	padding-bottom: ;
+	height: 100vh;
+	width: 100vw;
 }
 .slideBox{
 	padding-bottom: 100vh;
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	height: 100vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .title{
-	margin:0;
+	margin-top:-10rem;
 	display:flex;
 	flex-direction: column;
+	max-height: 50vh;
+	max-width: 50vw;
 }
 .title h1{
+	font-size: 5rem;
 	margin: 0 0 0 0;
 	text-align: center;
 
@@ -55,28 +95,39 @@ h3{
 	order: 3;
 }
 .name p{
-	line-height: 20pt;
-	font-size: 15pt;
+	line-height: 15pt;
+	font-size: 10pt;
+	margin: 0;
 }
 
 .iconmein{
 	margin-top: 10vh;
 }
 #icons1{
-	margin: 0;
+	grid-auto-columns:1fr 1fr ;
+	margin-left: 0;
+	grid-column-gap: 0;
+}
+#icons1 img{
+	width: 8rem;
+	height: 8rem;
+	border-radius: 10px;
 }
 .icon1 p{
-	font-size: 15pt;
+	font-size: 10pt;
+	margin-top: -30rem;
+	line-height: 15px;
 }
 /*リクエスト*/
 #request{
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
-	margin-bottom: 30%;
+	margin: 0;
+	padding: 0;
 }
 .linkicon2{
 	display:block;
-	padding: 40vh 0 40vh 0 ;
+	padding: 30vh 0 40vh 0 ;
 }
 .icon2{
 	padding: 0%;
@@ -86,27 +137,37 @@ h3{
 
 /*////ショップ////*/
 #shop{
-width: 100%;
-height:200vh;
-padding: 0 0 0 0;
+width: 100vw;
+height:100vh;
+padding: 0;
 }
 #shop h3{
 	height: 5%;
 }
 .icon3{
-	width: 50%;
-	height: 50%;
+	width: 30%;
+	height: 30%;
 	margin-top: 5em;
 }
 
 #shopbig{
 	padding: 0;
-	margin: 5% 0 0 25%;
-	width: 50%;
-	height: 50%;
+	margin: 0 0 0 25%;
+	width: 50vw;
+	height: 50vh;
 	display:flex;
 	flex-direction: column;
 	position: relative;
+}
+#makeImg {
+	object-fit: cover;
+	width: 40rem;
+	height: 40rem;
+}
+#makeImg img{
+	object-fit: cover;
+	width: 40rem;
+	height: 40rem;
 }
 #order1{
 	order: 1;
@@ -134,7 +195,10 @@ padding: 0 0 0 0;
 	line-height: 20pt;
 }
 .shopmin p{
-	width: 200px;
+	font-size: 10pt;
+	line-height: 17pt;
+	margin: 0 0 0 0;
+
 }
 .icon3{
 	height: 50%;
@@ -142,25 +206,29 @@ padding: 0 0 0 0;
 }
 .shopmin{
 	text-align: left;
-	font-size: 15pt;
-	line-height: 20pt;
+	margin-right: 10rem;
 }
 .shopmin h5{
 	padding: 0;
-	margin: 0;
+	margin:0;
+	font-size: 15pt;
 }
 
 /*/////仕事////*/
 #works{
-	width: 100%;
-	height: 200vh;
+	width: 100vw;
+	height: 150vh;
 	margin: 0;
-	padding: 0 0 0 -1em;
+	padding: 20% 0 0 0;
 }
 .sigoto{
-	margin-left: 30%;
+	margin-left: 20%;
 	display: flex;
 	flex-direction: column;
+}
+.sakuhin img{
+	width: 20rem;
+	height: 20rem;
 }
 .sakuhin{
 	order: 2;
@@ -179,11 +247,13 @@ padding: 0 0 0 0;
 	margin: 0 0 -5em 0;
 	text-align: center;
 }
-.icon4 {
-
+#bosyu h5{
+	font-size: 15pt;
 }
+
 footer{
-	width: 100%;
+	width: 100vw;
+	bottom: 0;
 }
 
 }
